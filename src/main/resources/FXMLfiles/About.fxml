@@ -13,9 +13,9 @@
             <Image url="@../Images/pat.jpeg" />
          </image>
       </ImageView>
-      <ImageView fitHeight="186.0" fitWidth="186.0" layoutX="342.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="186.0" fitWidth="150.0" layoutX="365.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../Images/luffy.jpeg" />
+            <Image url="@../Images/ken.jpg" />
          </image>
       </ImageView>
       <ImageView fitHeight="186.0" fitWidth="186.0" layoutX="80.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
@@ -40,12 +40,12 @@
          </font>
       </Label>
 
-      <Label layoutX="342.0" layoutY="231.0" prefWidth="150.0" text="Keneth tongka" textFill="WHITE">
+      <Label layoutX="363.0" layoutY="230.0" prefWidth="150.0" text="Keneth tongka" textFill="WHITE">
          <font>
             <Font size="18" />
          </font>
       </Label>
-      <Label layoutX="342.0" layoutY="252.0" prefWidth="150.0" text="20021106" textFill="WHITE">
+      <Label layoutX="363.0" layoutY="252.0" prefWidth="150.0" text="20021106092" textFill="WHITE">
          <font>
             <Font size="18" />
          </font>
@@ -55,7 +55,7 @@
             <Font size="18" />
          </font>
       </Label>
-      <Label layoutX="80.0" layoutY="499.0" prefWidth="150.0" text="20021106" textFill="WHITE">
+      <Label layoutX="80.0" layoutY="499.0" prefWidth="150.0" text="20021106101" textFill="WHITE">
          <font>
             <Font size="18" />
          </font>
@@ -65,15 +65,10 @@
             <Font size="18" />
          </font>
       </Label>
-      <Label layoutX="342.0" layoutY="501.0" prefWidth="150.0" text="18021106" textFill="WHITE">
+      <Label layoutX="342.0" layoutY="501.0" prefWidth="150.0" text="18021106111" textFill="WHITE">
          <font>
             <Font size="18" />
          </font>
       </Label>
-<!--      <Label layoutX="343.0" layoutY="236.0" prefWidth="150.0" text="20021106" />-->
-<!--      <Label layoutX="80.0" layoutY="458.0" prefWidth="150.0" text="Stephanie Pangemanan" />-->
-<!--      <Label layoutX="80.0" layoutY="472.0" prefWidth="150.0" text="20021106121" />-->
-<!--      <Label layoutX="344.0" layoutY="454.0" prefWidth="150.0" text="aldy ugu" />-->
-<!--      <Label layoutX="343.0" layoutY="468.0" prefWidth="150.0" text="18021106" />-->
    </children>
 </AnchorPane>
