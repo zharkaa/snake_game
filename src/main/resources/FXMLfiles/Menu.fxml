@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="700.0" prefWidth="700.0" stylesheets="@../MenuStylesheet.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pad.frontend.MenuController">
+   <Label alignment="TOP_CENTER" layoutX="313.0" layoutY="169.0" prefHeight="106.0" prefWidth="298.0" text="Game" textFill="WHITE">
+      <font>
+         <Font name="System Bold" size="81.0" />
+      </font>
+   </Label>
+   <Label alignment="TOP_CENTER" layoutX="23.0" layoutY="41.0" prefHeight="128.0" prefWidth="388.0" text="Snake">
+      <font>
+         <Font size="88.0" />
+      </font>
+   </Label>
+
+   <Button layoutX="424.0" layoutY="432.0" mnemonicParsing="false" onAction="#leaderBoard" prefHeight="41.0" prefWidth="147.0" text="Leader board">
+      <font>
+         <Font name="Aldhabi" size="17.0" />
+      </font>
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor>
+   </Button>
+
+   <Button layoutX="166.0" layoutY="525.0" mnemonicParsing="false" onAction="#aboutMenu" prefHeight="41.0" prefWidth="147.0" text="About">
+      <font>
+         <Font name="Aldhabi" size="17.0" />
+      </font>
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor>
+   </Button>
+
+   <Button layoutX="389.0" layoutY="524.0" mnemonicParsing="false" onAction="#exitGame" prefHeight="44.0" prefWidth="147.0" text="Exit Game">
+      <font>
+         <Font name="Aldhabi" size="19.0" />
+      </font>
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor>
+   </Button>
+   <Button contentDisplay="CENTER" layoutX="130.0" layoutY="431.0" mnemonicParsing="false" onAction="#howToPlay" prefHeight="43.0" prefWidth="147.0" text="How to play">
+      <font>
+         <Font name="Aldhabi" size="18.0" />
+      </font>
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor>
+   </Button>
+   <Button contentDisplay="CENTER" layoutX="277.0" layoutY="350.0" mnemonicParsing="false" onAction="#startGame" prefHeight="43.0" prefWidth="147.0" text="New Game">
+      <font>
+         <Font name="Aldhabi" size="18.0" />
+      </font>
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor>
+   </Button>
+
+</AnchorPane>

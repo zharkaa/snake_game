@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="588.0" prefWidth="620.0" stylesheets="@../AboutMenuStylesheet.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pad.frontend.AboutMenuController">
+   <children>
+      <Button fx:id="about_btn" layoutX="448.0" layoutY="525.0" mnemonicParsing="false" onAction="#backToMenuButtonClicked" prefHeight="41.0" prefWidth="139.0" text="Back" />
+      <ImageView fx:id="img1" fitHeight="186.0" fitWidth="186.0" layoutX="79.0" layoutY="34.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@../Images/pat.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="186.0" fitWidth="186.0" layoutX="342.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/luffy.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="186.0" fitWidth="186.0" layoutX="80.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/luffy.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="186.0" fitWidth="186.0" layoutX="342.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/asd.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="80.0" layoutY="230.0" prefHeight="11.0" prefWidth="210.0" text="Patrick Gustavo B Walujan" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+
+      <Label layoutX="80.0" layoutY="252.0" prefWidth="150.0" text="20021106121" textFill="WHITE">
+         <font>
+            <Font size="18" />
+         </font>
+      </Label>
+
+      <Label layoutX="342.0" layoutY="231.0" prefWidth="150.0" text="Keneth tongka" textFill="WHITE">
+         <font>
+            <Font size="18" />
+         </font>
+      </Label>
+      <Label layoutX="342.0" layoutY="252.0" prefWidth="150.0" text="20021106" textFill="WHITE">
+         <font>
+            <Font size="18" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="478.0" prefHeight="11.0" prefWidth="198.0" text="Stephanie Pangemanan" textFill="WHITE">
+         <font>
+            <Font size="18" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="499.0" prefWidth="150.0" text="20021106" textFill="WHITE">
+         <font>
+            <Font size="18" />
+         </font>
+      </Label>
+      <Label layoutX="342.0" layoutY="479.0" prefHeight="11.0" prefWidth="192.0" text="aldy uguY" textFill="WHITE">
+         <font>
+            <Font size="18" />
+         </font>
+      </Label>
+      <Label layoutX="342.0" layoutY="501.0" prefWidth="150.0" text="18021106" textFill="WHITE">
+         <font>
+            <Font size="18" />
+         </font>
+      </Label>
+<!--      <Label layoutX="343.0" layoutY="236.0" prefWidth="150.0" text="20021106" />-->
+<!--      <Label layoutX="80.0" layoutY="458.0" prefWidth="150.0" text="Stephanie Pangemanan" />-->
+<!--      <Label layoutX="80.0" layoutY="472.0" prefWidth="150.0" text="20021106121" />-->
+<!--      <Label layoutX="344.0" layoutY="454.0" prefWidth="150.0" text="aldy ugu" />-->
+<!--      <Label layoutX="343.0" layoutY="468.0" prefWidth="150.0" text="18021106" />-->
+   </children>
+</AnchorPane>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="700.0" prefWidth="700.0" stylesheets="@../HowToPlayStylesheet.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pad.frontend.HowToPlayController">
+   <Button graphicTextGap="10.0" layoutX="19.0" layoutY="9.0" mnemonicParsing="false" onAction="#backToMenuButtonClicked" prefHeight="41.0" prefWidth="151.0" text="BACK TO MENU" textAlignment="CENTER" textFill="black">
+      <font>
+         <Font name="Impact" size="10.0" />
+      </font>
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor>
+   </Button>
+   <TextField alignment="CENTER" editable="false" layoutX="205.0" layoutY="19.0" prefHeight="53.0" prefWidth="272.0" text="CARA BERMAIN:">
+      <font>
+         <Font name="Impact" size="44.0" />
+      </font>
+   </TextField>
+   <ImageView fitHeight="102.0" fitWidth="151.0" layoutX="6.0" layoutY="118.0">
+      <Image url="@../Images/arrowKeyboard.png" />
+   </ImageView>
+   <ImageView fitHeight="102.0" fitWidth="151.0" layoutX="535.0" layoutY="119.0">
+      <Image url="@../Images/wasdKeyboard.png" />
+   </ImageView>
+   <Line endX="672.0" endY="111.0" startX="15.0" startY="111.0" stroke="WHITE" />
+   <Line endX="673.0" endY="236.0" startX="16.0" startY="236.0" stroke="WHITE" />
+   <TextArea editable="false" layoutX="295.0" layoutY="407.0" prefHeight="131.0" prefWidth="377.0" text="Jika ular menabrak dinding&#10;&#10;                      atau menabrak tubuhnya. . .&#10;                      maka Permainan akan berakhir!" wrapText="true">
+      <font>
+         <Font name="Impact" size="22.0" />
+      </font>
+   </TextArea>
+   <TextArea editable="false" layoutX="32.0" layoutY="275.0" prefHeight="68.0" prefWidth="388.0" text="GOAL DARI GAME INI YAITU UNTUK MEMAKAN &#10;TIKUS DAN DAPATKAN SCORE TERTINGGI.">
+      <font>
+         <Font name="Impact" size="24.0" />
+      </font>
+   </TextArea>
+   <TextField editable="false" layoutX="14.0" layoutY="613.0" prefHeight="59.0" prefWidth="449.0" text="jangan lupa untuk save score,">
+      <font>
+         <Font name="Impact" size="27.0" />
+      </font>
+   </TextField>
+   <TextArea fx:id="useKey" depthTest="DISABLE" editable="false" layoutX="170.0" layoutY="124.0" prefHeight="92.0" prefWidth="346.0" text="GUNAKAN KEYBOARD untuk&#10;menggerakan ular">
+      <font>
+         <Font name="Impact" size="28.0" />
+      </font>
+   </TextArea>
+   <ImageView fitHeight="41.0" fitWidth="37.0" layoutX="592.0" layoutY="558.0">
+      <Image url="@../Images/mouse.png" />
+   </ImageView>
+   <ImageView fitHeight="312.0" fitWidth="496.0" layoutX="26.0" layoutY="301.0">
+      <Image url="@../Images/howToPlaySnake.png" />
+   </ImageView>
+   <ImageView fitHeight="286.0" fitWidth="535.0" layoutX="79.0" layoutY="275.0">
+      <Image url="@../Images/howToPlaySnake2.png" />
+   </ImageView>
+</AnchorPane>

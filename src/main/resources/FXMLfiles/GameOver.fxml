@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane onKeyPressed="#handleOnKeyPressed" prefHeight="750.0" prefWidth="700.0" stylesheets="@../GameOverStylesheet.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pad.frontend.GameOverController">
+
+   <Rectangle arcHeight="50.0" arcWidth="50.0" height="300.0" layoutX="151.0" layoutY="201.0" stroke="#83b799" strokeLineCap="ROUND" strokeType="INSIDE" strokeWidth="3.0" width="400.0" />
+   <Label layoutX="247.0" layoutY="229.0" text="GAME OVER!" textAlignment="CENTER">
+      <font>
+         <Font name="Impact" size="51.0" />
+      </font>
+   </Label>
+   <Label fx:id="score" layoutX="300.0" layoutY="150.0" text="SCORE: " textAlignment="CENTER">
+      <font>
+         <Font name="Impact" size="34.0" />
+      </font>
+   </Label>
+   <Label fx:id="enterName1" layoutX="201.0" layoutY="319.0" text="Type your name and press enter" textAlignment="CENTER">
+      <font>
+         <Font name="Impact" size="24.0" />
+      </font>
+   </Label>
+   <Button cacheShape="false" centerShape="false" layoutX="188.0" layoutY="432.0" mnemonicParsing="false" onAction="#handleMenuButtonPress" prefHeight="44.0" prefWidth="134.0" text="Back to Menu">
+      <font>
+         <Font name="Impact" size="20.0" />
+      </font></Button>
+   <TextField id="textField" fx:id="playerNameField" alignment="CENTER" focusTraversable="false" layoutX="247.0" layoutY="376.0" onAction="#onTextFieldEnter" prefHeight="32.0" prefWidth="209.0" style="-fx-background-color: #eee; -fx-border-color: #000000; -fx-border-width: 3;" text="Last Player">
+      <font>
+         <Font name="Impact" size="20.0" />
+      </font>
+      <cursor>
+         <Cursor fx:constant="TEXT" />
+      </cursor>
+   </TextField>
+   <Button fx:id="replay" cacheShape="false" centerShape="false" layoutX="398.0" layoutY="432.0" mnemonicParsing="false" onAction="#handleReplayButtonPress" prefHeight="44.0" prefWidth="134.0" text="PLAY AGAIN">
+      <font>
+         <Font name="Impact" size="20.0" />
+      </font>
+   </Button>
+   <Label fx:id="enterName2" layoutX="259.0" layoutY="345.0" text="TO SAVE YOUR SCORE:" textAlignment="CENTER">
+      <font>
+         <Font name="Impact" size="24.0" />
+      </font>
+   </Label>
+
+</AnchorPane>
