@@ -1,3 +1,3 @@
-# snake_game
+# Snake Game
 
-This game is educational and practice.
+This game is educational and practice purpose only.
