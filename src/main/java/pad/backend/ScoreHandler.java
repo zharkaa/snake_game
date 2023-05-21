@@ -3,7 +3,8 @@ package pad.backend;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.File;
-import java.nio.file.Paths;
+import java.io.FileOutputStream;
+import java.io.OutputStream;
 import java.util.*;
 
 /**
@@ -41,17 +42,12 @@ public class ScoreHandler {
     // Loads the list of scores from the json file
     public void loadScore() {
         // First check if the json file exists
-        File scoresDataFile = null;
         try {
-            scoresDataFile = new File(Objects.requireNonNull(ScoreHandler.class.getResource("/scores.json")).toURI());
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        if (!Objects.requireNonNull(scoresDataFile).exists() || scoresDataFile.length() == 0) {
-            // If it doesn't exist there's nothing to load so return, will create file when saving the score
-            return;
-        }
-        try {
+            File scoresDataFile = new File("/scores.json");
+            if (!scoresDataFile.exists() || scoresDataFile.length() == 0) {
+                // If the file doesn't exist or is empty, there's nothing to load
+                return;
+            }
             this.scoreList = objectMapper.readValue(scoresDataFile, this.scoreList.getClass());
         } catch (Exception e) {
             e.printStackTrace();
@@ -61,8 +57,10 @@ public class ScoreHandler {
     // Saves the current list of scores to the json file
     public void saveScore() {
         try {
-            File scoresDataFile = new File(Objects.requireNonNull(ScoreHandler.class.getResource("/scores.json")).toURI());
-            objectMapper.writeValue(Paths.get(scoresDataFile.toURI()).toFile(), this.scoreList);
+            File scoresDataFile = new File("/scores.json");
+            OutputStream outputStream = new FileOutputStream(scoresDataFile);
+            objectMapper.writeValue(outputStream, this.scoreList);
+            outputStream.close();
         } catch (Exception e) {
             e.printStackTrace();
         }

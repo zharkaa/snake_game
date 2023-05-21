@@ -1,6 +1,6 @@
 package pad.backend;
 
-import javafx.scene.media.MediaView;
+//import javafx.scene.media.MediaView;
 
 import java.net.URISyntaxException;
 import java.util.ArrayList;
@@ -19,7 +19,7 @@ public class Field {
     private final Snake snake;
     private int score;
 
-    private MediaView gameOverMediaView;
+//    private MediaView gameOverMediaView;
 
 
 

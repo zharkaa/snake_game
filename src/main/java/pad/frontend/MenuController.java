@@ -5,8 +5,8 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.image.ImageView;
-import javafx.scene.media.MediaView;
+//import javafx.scene.image.ImageView;
+//import javafx.scene.media.MediaView;
 //import javafx.scene.image.Image;
 //import javafx.scene.media.AudioClip;
 //import javafx.scene.media.Media;
@@ -19,10 +19,10 @@ import javafx.scene.media.MediaView;
 public class MenuController {
 
     @FXML
-    private ImageView musicImageView;
+//    private ImageView musicImageView;
 
     SnakeGame game = new SnakeGame();
-    private MediaView mediaView;
+//    private MediaView mediaView;
 
     public MenuController(){
     }

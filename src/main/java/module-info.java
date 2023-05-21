@@ -3,7 +3,7 @@ module pad {
     requires javafx.fxml;
     requires javafx.base;
     requires java.desktop;
-    requires javafx.media;
+//    requires javafx.media;
     requires com.fasterxml.jackson.databind;
     requires org.kordamp.bootstrapfx.core;
     opens pad.frontend to javafx.fxml;
